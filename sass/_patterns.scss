@@ -34,3 +34,7 @@ b{
     color: var(--color-warning);
 }
 
+main .date input[type = "date"]{
+    background: transparent;
+    color: var(--color-dark);
+}
