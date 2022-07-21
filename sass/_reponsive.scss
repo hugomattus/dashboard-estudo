@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px){
+   .container{
+    width: 94%;
+    grid-template-columns: 7rem auto 23rem;
+
+    aside {
+        .logo{
+            h2{
+                display: none;
+            }
+        }
+        .sidebar{
+            h3{
+                display: none;
+            }
+            a{
+                width: 5.6rem;
+                &:last-child{
+                    position: relative;
+                    margin-top: 1.8rem;
+                }
+            }
+        }
+    }
+
+    main{
+        .insights{
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+
+        .recent-orders{
+            width: 94%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 2rem 0 0 8.8rem;
+            table{
+                width: 83vw;
+                tbody{
+                    tr{
+                        td{
+                            &:first-child{
+                                display:none;
+                            }
+                            &:last-child{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+
+
+  
+}
