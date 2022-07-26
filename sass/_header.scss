@@ -1,7 +1,6 @@
 aside{
     height: 100vh;
     .top{
-        background: white;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -16,6 +15,7 @@ aside{
         }
         .close{
             display: none;
+            color: var(--color-dark);
         }
     }
 }
