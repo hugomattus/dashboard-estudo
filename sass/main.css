@@ -327,6 +327,10 @@ aside .top .logo img {
   height: 2rem;
 }
 
+aside .top .logo h2 {
+  color: var(--color-dark);
+}
+
 aside .top .close {
   display: none;
   color: var(--color-dark);
