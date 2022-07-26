@@ -149,6 +149,11 @@ main{
                     border: none;
                 }
             }
+            thead{
+                th{
+                    color: var(--color-dark);
+                }
+            }
         }
     }
 }
